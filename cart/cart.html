@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="../assets/base.css">
+    <link rel="stylesheet" href="../assets/grid.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap">
+    <link rel="stylesheet" href="../assets/main.css">
+    <link rel="stylesheet" href="../assets/respondsive.css">
+    <link rel="stylesheet" href="./cart-style.css">
+
+    <title>Vimaru-smart</title>
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="header__navbar hide-on-mobile-tablet">
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item navbar__list-item-separate">Vào đây xem có gì nào</li>
+                        <li class="navbar__list-item">
+                            <span class="navbar__list-item-name">Kết nối</span>
+                            <a href="" class="list-item__link">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="" class="list-item__link">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item navbar__list-item--notify-grow">
+                            <a href="" class="list-item__link">
+                                <i class="far fa-bell"></i>
+                                <span class="list-item__text-icon">Thông Báo</span>
+                            </a>
+
+                            <div class="header__notify">
+                                <header class="header__notify-header">
+                                    <h3> Thông Báo Mới Nhất</h3>
+                                </header>
+                                <ul class="header__notify-list">
+                                    <li class="header__notify-items">
+                                        <a href="" class="header__notify-link">
+                                            <img src="../assets/img/macbook01.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-infor">
+                                                <span class="header__notify-name">Apple Macbook Pro 13 Touchbar (MXK52)
+                                                    (i5 1.4Ghz/8GB /512GB SSD/13.3 inch IPS/Mac OS/Xám)</span>
+                                                <span class="header__notify-desc">37.689.000₫</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-items">
+                                        <a href="" class="header__notify-link">
+                                            <img src="../assets/img/macbook02.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-infor">
+                                                <span class="header__notify-name">Apple Macbook Pro 13 Touchbar (Z11F)
+                                                    (Apple M1/16GB RAM/512GB SSD/13.3 inch IPS/Mac OS/Bạc)
+                                                </span>
+                                                <span class="header__notify-desc">43.989.000₫ </span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__notify-items">
+                                        <a href="" class="header__notify-link">
+                                            <img src="../assets/img/macbook03.jpg" alt="" class="header__notify-img">
+                                            <div class="header__notify-infor">
+                                                <span class="header__notify-name">Apple Macbook Pro 13 Touchbar (MXK72)
+                                                    (i5 1.4Ghz/8GB /512GB SSD/13.3 inchIPS/Mac OS/Bạc) (2020)</span>
+                                                <span class="header__notify-desc">31.489.000₫</span>
+
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__notify-footer">
+                                    <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="" class="list-item__link">
+                                <i class="far fa-question-circle"></i>
+
+                            </a>
+                            Trợ giúp
+                        </li>
+                        <!-- <li class="navbar__list-item navbar__list-item--strong navbar__list-item-separate">Đăng ký</li> -->
+                        <!-- <li class="navbar__list-item navbar__list-item--strong">Đăng nhập</li> -->
+
+                        <li class="navbar__list-item navbar__list-item--user">
+                            <img src="../assets/img/user.jpg" alt="" class="navbar__user--img">
+                            <span class="navbar__user--name">Đức Tú</span>
+                            <ul class="navbar__user-menu">
+                                <li class="navbar__user-item">
+                                    <a href="" class="">Tài Khoản của tôi</a>
+                                </li>
+                                <li class="navbar__user-item">
+                                    <a href="" class="">Đơn đã mua</a>
+                                </li>
+                                <li class="navbar__user-item">
+                                    <a href="" class="">Đơn hàng</a>
+                                </li>
+                                <li class="navbar__user-item">
+                                    <a href="" class="">Đăng xuất</a>
+                                </li>
+                            </ul>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <div class="header-with-search">
+                    <a class="header-logo" href="../index.html">
+                        <img src="../assets/img/118-1183343_asus-e-gametekk-asus-logo-black-png-asus.png" alt=""
+                            class="header-image">
+                    </a>
+
+                    <div class="header__search">
+                        <div class="header__search-wrap">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm">
+                            <div class="header__search-history">
+                                <h3 class="header__search-history-heading">Lịch sử tìm tòi</h3>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="" class="">màn hình 244hz</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="" class="">màn hình 2994hz</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+
+                    <!-- header cart buy  -->
+
+                    <div class="header__cart">
+                        <a class="header__cart-wrap" href="">
+                            <i class="header__cart-icon fas fa-shopping-cart"></i>
+                            <span class="header__cart-notice"></span>
+
+
+                            <div class="header__cart-list">
+
+                                <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+
+                                <ul class="header__cart-list-item">
+                                    <li class="header__cart-item">
+                                        <img src="../assets/img/core_i3_10100f_01.jpg" alt=""
+                                            class="header__cart-item-img">
+
+                                        <div class="header__cart-item-infor">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">CPU Intel Core i3-10100 (3.PU Intel
+                                                    Core i3-10100 (3.6PU Intel Core i3-10100 (3.6PU Intel Core i3-10100
+                                                    (3.6PU Intel Core i3-10100 (3.66GHz turbo up to 4.3Ghz, 4 nhân 8
+                                                    luồng, 6MB Cache, 65W) </h5>
+
+                                                <div class="header__cart-item-wrap">
+
+                                                    <span class="header__cart-item-price">2.899.000đ</span>
+                                                    <span class="header__cart-item-x">X</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Còn hàng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+
+
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="../assets/img/i9_9900kf_right_facing_850x850.jpg" alt=""
+                                            class="header__cart-item-img">
+
+                                        <div class="header__cart-item-infor">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">CPU Intel Core i9-9900KF (3.6GHz
+                                                    turbo up to 5.0GHz, 8 nhân 16 luồng, 16MB Cache, 95W) </h5>
+
+                                                <div class="header__cart-item-wrap">
+
+                                                    <span class="header__cart-item-price">11.999.000đ
+                                                    </span>
+                                                    <span class="header__cart-item-x">X</span>
+                                                    <span class="header__cart-item-quantity">2</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc">Còn hàng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+
+
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="../assets/img/_xeon_e_2136_righ.jpg" alt=""
+                                            class="header__cart-item-img">
+
+                                        <div class="header__cart-item-infor">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">CPU Intel Xeon E-2136 (3.3 GHz turbo
+                                                    up to 4.5GHz, 6 nhân, 12 luồng, 12MB Cache, 80W) </h5>
+
+                                                <div class="header__cart-item-wrap">
+
+                                                    <span class="header__cart-item-price">49.999.000₫</span>
+                                                    <span class="header__cart-item-x">X</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc"> Còn hàng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+
+
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="../assets/img/_xeon_e_2136_righ.jpg" alt=""
+                                            class="header__cart-item-img">
+
+                                        <div class="header__cart-item-infor">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">CPU Intel Xeon E-2136 (3.3 GHz turbo
+                                                    up to 4.5GHz, 6 nhân, 12 luồng, 12MB Cache, 80W) </h5>
+
+                                                <div class="header__cart-item-wrap">
+
+                                                    <span class="header__cart-item-price">49.999.000₫</span>
+                                                    <span class="header__cart-item-x">X</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc"> Còn hàng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+
+
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="../assets/img/_xeon_e_2136_righ.jpg" alt=""
+                                            class="header__cart-item-img">
+
+                                        <div class="header__cart-item-infor">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">CPU Intel Xeon E-2136 (3.3 GHz turbo
+                                                    up to 4.5GHz, 6 nhân, 12 luồng, 12MB Cache, 80W) </h5>
+
+                                                <div class="header__cart-item-wrap">
+
+                                                    <span class="header__cart-item-price">49.999.000₫</span>
+                                                    <span class="header__cart-item-x">X</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc"> Còn hàng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+
+
+                                    </li>
+                                    <li class="header__cart-item">
+                                        <img src="../assets/img/_xeon_e_2136_righ.jpg" alt=""
+                                            class="header__cart-item-img">
+
+                                        <div class="header__cart-item-infor">
+                                            <div class="header__cart-item-head">
+                                                <h5 class="header__cart-item-name">CPU Intel Xeon E-2136 (3.3 GHz turbo
+                                                    up to 4.5GHz, 6 nhân, 12 luồng, 12MB Cache, 80W) </h5>
+
+                                                <div class="header__cart-item-wrap">
+
+                                                    <span class="header__cart-item-price">49.999.000₫</span>
+                                                    <span class="header__cart-item-x">X</span>
+                                                    <span class="header__cart-item-quantity">1</span>
+                                                </div>
+                                            </div>
+                                            <div class="header__cart-item-body">
+                                                <span class="header__cart-item-desc"> Còn hàng</span>
+                                                <span class="header__cart-item-remove">Xóa</span>
+                                            </div>
+
+                                        </div>
+
+
+                                    </li>
+                                </ul>
+                                <button class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</button>
+                            </div>
+
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- responsive -->
+            <ul class="header__sort-bar">
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Liên quan</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Mới nhất</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">giảm giá</a>
+                </li>
+                <li class="header__sort-item">
+                    <a href="" class="header__sort-link">Giá</a>
+                </li>
+            </ul>
+        </header>
+
+        <div class="app__container">
+            <div class="grid wide">
+                <div class="row app__content">
+                    <div class="col l-2 m-0 c-0">
+                        <nav class="category">
+                            <h3 class="category__heading">
+                                <i class="category__heading-icon fas fa-list"></i>
+                                Danh mục
+                            </h3>
+                            <ul class="category-list">
+                                <li class="category-item ">
+                                    <a href="" class="category-item__link">Linh kiện máy tính</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Màn Hình</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Laptop, Ipad</a>
+                                </li>
+                                <li class="category-item category-item--active">
+                                    <a href="" class="category-item__link ">VGA</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">CPU</a>
+                                </li>
+                                <li class="category-item">
+                                    <a href="" class="category-item__link">Ổ cứng</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+                    <div class="col l-10 m-12 c-12">
+                        <div class="home-filter hide-on-mobile-tablet">
+                            <span class="home-filter__label">Sắp xếp theo</span>
+                            <button class="home-filter__btn btn ">Phổ biến</button>
+                            <button class="home-filter__btn btn btn--primary">Mới nhất</button>
+                            <button class="home-filter__btn btn">Bán chạy</button>
+                            <div class="select-input">
+                                <span class="select-input__label">Giá</span>
+                                <i class="select-input__icon fas fa-angle-down"></i>
+                                <!-- list -->
+                                <ul class="select-input__list">
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Thấp đến cao</a>
+                                    </li>
+
+                                    <li class="select-input__item">
+                                        <a href="" class="select-input__link">Giá: Cao đến thấp</a>
+                                    </li>
+
+                                </ul>
+                            </div>
+
+                            <div class="home-filter__pate">
+                                <span class="home-filter__pate-num">
+                                    <span class="home-filter__pate-current">1</span>/14
+                                </span>
+                                <div class="home-filter__pate-control">
+                                    <a href="" class="home-filter__pate-btn home-filter__pate-btn--disabled">
+                                        <i class="home-filter__pate-icon fas fa-angle-left"></i>
+
+                                    </a>
+                                    <a href="" class="home-filter__pate-btn">
+                                        <i class="home-filter__pate-icon fas fa-angle-right"></i>
+
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <nav class="mobile-category">
+                            <ul class="mobile-category__list">
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link"> laptop HP filo 1040 g3 elitebook pro</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link"> masy tinh ban di cho nha</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link"> masy tinh ban di cho nh</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link"> masy tinh ban di cho nha</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link"> masy tinh ban di cho nha</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link"> masy tinh ban di cho nha</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link"> masy tinh ban di cho nha</a>
+                                </li>
+                                <li class="mobile-category__item">
+                                    <a href="" class="mobile-category__link"> masy tinh ban di cho nha</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="home-product">
+                            <div class="emptyProduct"">
+                                    <img class=" emptyProduct-img" src="../assets/img/empty-cart.png" alt="">
+                            </div>
+                            <div class="row cart__menu">
+
+
+                            </div>
+                            <div class="row cart__menu--footer">
+                                <a href="../index.html" class="btn__continue-shoping"><i
+                                        class="fas fa-angle-left"></i>Tiếp tục mua hàng</a>
+                                <div><span>Tổng thanh toán: </span> <span class="Total"></span></div>
+                                <div class="pay menu-pay">ĐẶT HÀNG</div>
+                            </div>
+                        </div>
+                        <ul class="pagination home-product__pagination">
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item-icon fas fa-angle-left"></i>
+                                </a>
+
+                            </li>
+                            <li class="pagination-item pagination-item--active">
+                                <a href="" class="pagination-item__link ">1</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">2</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">...</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">5</a>
+                            </li>
+                            <li class="pagination-item">
+                                <a href="" class="pagination-item__link">
+                                    <i class="pagination-item-icon fas fa-angle-right"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+            <div class="grid wide">
+                <div class="footer__container">
+
+                    <div class="row">
+                        <div class="col l-2-4 m-2-4 c-3">
+                            <h3 class="footer__heading">Danh Mục</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Trung tâm trợ giúp</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Hướng dẫn mua hàng</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Hướng dẫn bán hàng</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Thanh toán</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col l-2-4 m-2-4 c-3">
+                            <h3 class="footer__heading">Giới thiệu</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Giới thiệu về Shop</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Tuyển dụng</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Điều khoản Shop tại Việt Nam</a>
+                                </li>
+                                <li class="footer__item">
+                                    <a href="" class="footer__link">Chính sach bảo mật</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col l-2-4 m-2-4 c-3">
+                            <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item footer__item--socials">
+                                    <i class="fab fa-facebook-square"></i>
+                                    <a href="https://www.facebook.com/djndt16/" class="footer__link">Facebook</a>
+                                </li>
+                                <li class="footer__item footer__item--socials">
+                                    <i class=" fab fa-instagram-square"></i>
+                                    <a href="https://www.facebook.com/djndt16/" class="footer__link">Instagram</a>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                        <div class="col l-2-4 m-2-4 c-3">
+                            <h3 class="footer__heading">Địa chỉ</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item">
+                                    <p>Số 129 + 131, phố Lê Thanh Nghị, Phường Đồng Tâm, Quận Hai Bà Trưng, Hà Nội</p>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col l-2-4 m-2-4 c-12">
+                            <h3 class="footer__heading">Tải ứng dụng Vimaru Smart</h3>
+                            <ul class="footer__list footer__item--down">
+                                <li class="footer__item">
+
+                                    <img class="footer__item--pr"
+                                        src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/d91264e165ed6facc6178994d5afae79.png"
+                                        alt="">
+                                </li>
+                                <li class="footer__item">
+                                    <a href="https://www.facebook.com/djndt16/" class="footer__link">
+                                        <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/39f189e19764dab688d3850742f13718.png"
+                                            alt="" class="footer__item--img">
+                                    </a>
+                                    <a href="https://www.facebook.com/djndt16/" class="footer__link">
+                                        <img src="https://deo.shopeemobile.com/shopee/shopee-pcmall-live-sg/assets/f4f5426ce757aea491dce94201560583.png"
+                                            alt="" class="footer__item--img">
+                                    </a>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+            <div class="footer__bottom">
+                <p>© 2021 - Bản quyền thuộc về Công ty TNHH DevWeb</p>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="modal__overlay">
+        <div class="load"></div>
+    </div>
+    <div class="modal__overlay--invoice">
+        <div class="modal__pay">
+            <div class="btnX"><i class="fas fa-times"></i></div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Giá</th>
+                        <th>Số lượng</th>
+                        <th>Thành tiền</th>
+                    </tr>
+                </thead>
+                <tbody class="pay__plist">
+                    <tr class="pay__row">
+                        <td></td>
+                        <td class="nameproduct__row">Macbook pro 2016</td>
+                        <td>x1</td>
+                        <td>22.390.000</td>
+                    </tr>
+
+                    <tr class="pay__row">
+                        <td></td>
+                        <td class="nameproduct__row">Macbook pro 2016 Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo necessitatibus corporis nostrum perspiciatis cupiditate, atque, et ea exercitationem accusamus eaque autem minus impedit rem neque labore, beatae dolores animi commodi.</td>
+                        <td>x1</td>
+                        <td>22.390.000</td>
+                    </tr>
+
+                    <tr class="pay__row">
+                        <td></td>
+                        <td class="nameproduct__row">Macbook pro 2016</td>
+                        <td>x1</td>
+                        <td>22.390.000</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+            <div class="totalPayList">
+                <span>Tổng thanh toán:&nbsp</span><span class="Total"></span>
+                <div class="pay invoice-pay">THANH TOÁN</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <script src="function.js">  </script> -->
+    <script type="module" src="./cartJS.js"></script>
+    <script>
+        function increaseCount(a, b) {
+            var input = b.previousElementSibling;
+            var value = parseInt(input.value, 10);
+            value = isNaN(value) ? 0 : value;
+            value++;
+            input.value = value;
+        }
+        function decreaseCount(a, b) {
+            var input = b.nextElementSibling;
+            var value = parseInt(input.value, 10);
+            if (value > 1) {
+                value = isNaN(value) ? 0 : value;
+                value--;
+                input.value = value;
+            }
+        }
+    </script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var load = document.querySelector('.modal__overlay');
+            load.style.display = 'none';
+        })
+    </script>
+</body>
+
+</html>
