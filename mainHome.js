@@ -13,7 +13,7 @@ function handlePostCart(id) {
     const priceItem = document.querySelector(`#item${id} .home-product-item__price-current`).dataset.price
     let data = {
         id: Number(id),
-        image: imgItem,
+        image: '.'+imgItem,
         name: nameItem,
         gia: Number(priceItem),
         soluong: 1
