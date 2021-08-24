@@ -14,7 +14,7 @@ var cart
 var htmlList
 var c = console.log;
 c('sunny')
-const API = 'http://localhost:3000/cart'
+const API = 'https://json-server-8822.herokuapp.com/cart'
 //------PUT-----
 function PUTDATA(data, id) {
     let options = {
