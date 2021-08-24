@@ -1,5 +1,4 @@
-{
-  "cart": [
+[
     {
       "id": 3,
       "image": "../assets/img/macbook02.jpg",
@@ -28,5 +27,5 @@
       "gia": 20900000,
       "soluong": 1
     }
-  ]
-}
+]
+
