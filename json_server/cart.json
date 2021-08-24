@@ -1,0 +1,32 @@
+{
+  "cart": [
+    {
+      "id": 3,
+      "image": "../assets/img/macbook02.jpg",
+      "name": "MacBook Pro hang cu 99%",
+      "gia": 18990000,
+      "soluong": 1
+    },
+    {
+      "id": 4,
+      "image": "../assets/img/AppleMacbookAir13.png",
+      "name": "Apple Macbook Air 13 (Z124000DE) (Apple M1/16GB RAM/256GB SSD/13.3 inch IPS/Mac OS/Xám)",
+      "gia": 31509000,
+      "soluong": 1
+    },
+    {
+      "id": 5,
+      "image": "../assets/img/AppleMacbookPro13Touchbar.png",
+      "name": "Apple Macbook Pro 13 Touchbar (Z11F000CF/Z11D000E7) (Apple M1/16GB RAM/512GB SSD/13.3 inch IPS/Mac OS/Bạc)",
+      "gia": 44429000,
+      "soluong": 1
+    },
+    {
+      "id": 2,
+      "image": "../assets/img/macbook03.jpg",
+      "name": "MacBook Air hang sach tay",
+      "gia": 20900000,
+      "soluong": 1
+    }
+  ]
+}
