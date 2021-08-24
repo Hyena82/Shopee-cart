@@ -1,4 +1,13 @@
 {
+  "cart": [
+    {
+      "id": 5,
+      "image": "../assets/img/AppleMacbookPro13Touchbar.png",
+      "name": "Apple Macbook Pro 13 Touchbar (Z11F000CF/Z11D000E7) (Apple M1/16GB RAM/512GB SSD/13.3 inch IPS/Mac OS/Bạc)",
+      "gia": 44429000,
+      "soluong": 1
+    }
+  ],
   "product": [
     {
       "id": 1,
