@@ -11,37 +11,37 @@
   "product": [
     {
       "id": 1,
-      "image": "../assets/img/3070_o8g_gaming.jpg",
+      "image": "./assets/img/3070_o8g_gaming.jpg",
       "name": "Card màn hình ASUS ROG STRIX RTX 3070-8G GAMING",
       "gia": 29790000
     },
     {
       "id": 2,
-      "image": "../assets/img/macbook03.jpg",
+      "image": "./assets/img/macbook03.jpg",
       "name": "MacBook Air hang sach tay",
       "gia": 20900000
     },
     {
       "id": 3,
-      "image": "../assets/img/macbook02.jpg",
+      "image": "./assets/img/macbook02.jpg",
       "name": "MacBook Pro hang cu 99%",
       "gia": 18990000
     },
     {
       "id": 4,
-      "image": "../assets/img/AppleMacbookAir13.png",
+      "image": "./assets/img/AppleMacbookAir13.png",
       "name": "Apple Macbook Air 13 (Z124000DE) (Apple M1/16GB RAM/256GB SSD/13.3 inch IPS/Mac OS/Xám)",
       "gia": 31509000
     },
     {
       "id": 5,
-      "image": "../assets/img/AppleMacbookPro13Touchbar.png",
+      "image": "./assets/img/AppleMacbookPro13Touchbar.png",
       "name": "Apple Macbook Pro 13 Touchbar (Z11F000CF/Z11D000E7) (Apple M1/16GB RAM/512GB SSD/13.3 inch IPS/Mac OS/Bạc)",
       "gia": 44429000
     },
     {
       "id": 6,
-      "image": "../assets/img/AppleMacbookPro16.png",
+      "image": "./assets/img/AppleMacbookPro16.png",
       "name": "Apple Macbook Pro 16 Touchbar (MVVK2SA/A) (i9 2.3Ghz/16GB RAM/1TB SSD/16.0/Radeon 5500M 4G/ Mac OS/Xám) (2019)",
       "gia": 67659000
     }
