@@ -18,6 +18,7 @@ function handlePostCart(id) {
         gia: Number(priceItem),
         soluong: 1
     }
+    console.log('handlePostCart...');
     createData(data)
 }
 function checkCart() {
@@ -25,21 +26,30 @@ function checkCart() {
         .then((respond) => respond.json())
         .then(
             (myDataCart) => {
+                // myDataCart = myDataCart.cart
+                console.log(myDataCart);
                 quantityCartIcon.innerText = myDataCart.length
                 const btnAddToCarts = $$('.add-to-cart')
                 btnAddToCarts.forEach(function (btn) {
                     btn.addEventListener('click', function () {
+                        console.log('click');
                         if (myDataCart.length == 0) {
+                            console.log('click gio hang 0');
                             load.style.display = 'block';
                             handlePostCart(btn.id)
                         } else {
-                            myDataCart.forEach(element => {
-                                if (btn.id == element.id) {
-                                    alert('Sản Phẩm đã có trong giỏ hàng!')
-                                } else {
-                                    handlePostCart(btn.id)
-                                }
+                            let incart = myDataCart.some(element => {
+                                return btn.id == element.id
                             });
+                            console.log(incart);
+                            if (incart) {
+                                alert('Sản Phẩm đã có trong giỏ hàng!')
+                            }
+                            else {
+                                console.log('in cart already?');
+                                load.style.display = 'block';
+                                handlePostCart(btn.id)
+                            }
                         }
                     });
                 });
@@ -98,79 +108,33 @@ function renderData(result) {
         `
     })
     pushDataHome.innerHTML = htmlHome.join('')
-    return result
     load.style.display = 'none';
+    console.log('xong...');
+    return result
 }
 getData(renderData)
-
 //------POST-----
 
 function createData(data) {
-    let options = {
+    let optionsss = {
         method: 'POST',
+        mode: 'cors',
+        cache: 'no-cache',
+        credentials: 'same-origin',
         headers: {
             'Content-Type': 'application/json'
         },
+        redirect: 'follow',
+        referrerPolicy: 'no-referrer',
         body: JSON.stringify(data)
     }
-    fetch(API_CART, options)
+    fetch(API_CART, optionsss)
+        .then(response => response.json())
+        .then(data => {
+            console.log('Success:', data);
+            getData(renderData)
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
 }
-
-// function checklogin(){
-//     var a = document.getElementById('inputuser').value
-//     var b = document.getElementById('inputpass').value
-//     if(a==='admin' && b==='admin'){
-//         document.getElementById("dangnhap").style.display = 'none'
-
-//     }
-//     else{
-//         alert("nhap sai tai khoan hoac mat khau")
-//         document.getElementById('inputuser').value = ''
-//         document.getElementById('inputpass').value = ''
-//         document.getElementById('inputuser').focus()
-
-//     }
-// }
-// //enter to login
-// var meo = 'hai'
-// var cho = 'hai'
-
-// // if(getComputedStyle(document.getElementById("dangnhap")).display == "none"){
-// //     alert('cai gi day')
-// // }
-
-
-//  // allow keyboard Enter just can use on ID dangnhap
-//  document.onkeydown = function(e){
-//     if(getComputedStyle(document.querySelector('#dangnhap')).display != 'none'){
-//         if(e.key === 'Enter'){
-//                 checklogin()
-//                 console.log(e)
-//         }
-//     }
-// }
-// //click to login
-// // document.querySelector('.click_login').addEventListener("click",checklogin)
-
-// //click change form-up
-// document.querySelectorAll('.click_login--change')[0].addEventListener("click",function(){
-//     document.getElementById('form-logup').style.display = 'none';
-//     document.getElementById('form-login').style.display = 'block';
-// });
-
-// //click change form-in
-// document.querySelectorAll('.click_login--change')[1].addEventListener("click",function(){
-//     document.getElementById('form-login').style.display = 'none';
-//     document.getElementById('form-logup').style.display = 'block';
-// });
-
-// //click btn back on form-up
-// document.querySelector('.c').addEventListener("click",function(){
-//     document.getElementById('dangnhap').style.display = 'none'
-// })
-
-// document.querySelectorAll('.click_login--change').onclick = function(){
-
-//     document.getElementById("dangnhap").style.display = 'none'
-
-// }
