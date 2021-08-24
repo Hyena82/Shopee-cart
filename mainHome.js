@@ -4,8 +4,8 @@ const pushDataHome = $('.product__home')
 const quantityCartIcon = $('.header__cart-notice')
 const load = $('.modal__overlay')
 var htmlHome
-const API = 'http://localhost:3000/product'
-const API_CART = 'http://localhost:3000/cart'
+const API = 'https://json-server-8822.herokuapp.com/product'
+const API_CART = 'https://json-server-8822.herokuapp.com/cart'
 //------GET-----
 function handlePostCart(id) {
     const imgItem = document.querySelector(`#item${id} .home-product-item__img`).getAttribute('data-product-img')
