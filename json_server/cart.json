@@ -1,5 +1,6 @@
-  [
-    "cart": {
+{
+  "cart": [
+    {
       "id": 3,
       "image": "../assets/img/macbook02.jpg",
       "name": "MacBook Pro hang cu 99%",
@@ -28,3 +29,4 @@
       "soluong": 1
     }
   ]
+}
