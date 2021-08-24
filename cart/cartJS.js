@@ -25,6 +25,7 @@ function PUTDATA(data, id) {
         body: JSON.stringify(data)
     }
     fetch(API + '/' + id, options)
+        .then(()=>{load.style.display = 'none';})
 }
 btnX.onclick = () => {
     modalPay.style.display = 'none'
