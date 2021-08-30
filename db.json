@@ -8,126 +8,120 @@
       "soluong": 2
     }
   ],
-  "product": [
-  {
-    "id": 1,
-    "image": "./assets/img/3070_o8g_gaming.jpg",
-    "name": "Card màn hình ASUS ROG STRIX RTX 3070-8G GAMING",
-    "gia": 29790000
-  },
-  {
-    "id": 2,
-    "image": "./assets/img/macbook03.jpg",
-    "name": "MacBook Air hang sach tay",
-    "gia": 20900000
-  },
-  {
-    "id": 3,
-    "image": "./assets/img/macbook02.jpg",
-    "name": "MacBook Pro hang cu 99%",
-    "gia": 18990000
-  },
-  {
-    "id": 4,
-    "image": "./assets/img/AppleMacbookAir13.png",
-    "name": "Apple Macbook Air 13 (Z124000DE) (Apple M1/16GB RAM/256GB SSD/13.3 inch IPS/Mac OS/Xám)",
-    "gia": 31509000
-  },
-  {
-    "id": 5,
-    "image": "./assets/img/AppleMacbookPro13Touchbar.png",
-    "name": "Apple Macbook Pro 13 Touchbar (Z11F000CF/Z11D000E7) (Apple M1/16GB RAM/512GB SSD/13.3 inch IPS/Mac OS/B?c)",
-    "gia": 44429000
-  },
-  {
-    "id": 6,
-    "image": "./assets/img/AppleMacbookPro16.png",
-    "name": "Apple Macbook Pro 16 Touchbar (MVVK2SA/A) (i9 2.3Ghz/16GB RAM/1TB SSD/16.0/Radeon 5500M 4G/ Mac OS/Xám) (2019)",
-    "gia": 67659000
-  },
-  {
-    "image": "./assets/img/Corei3-10105F.jpg",
-    "name": "CPU Intel Core i3-10105F (3.7GHz turbo up to 4.4Ghz, 4 nhân 8 lu?ng, 6MB Cache, 65W) - Socket Intel LGA 1200",
-    "gia": 2799000,
-    "id": 7
-  },
-  {
-    "image": "./assets/img/Corei7-10700.jpg",
-    "name": "CPU Intel Core i7-10700 (2.9GHz turbo up to 4.8GHz, 8 nhân 16 lu?ng, 16MB Cache, 65W) - Socket Intel LGA 1200",
-    "gia": 8399000,
-    "id": 8
-  },
-  {
-    "image": "./assets/img/Corei5-10500.jpg",
-    "name": "CPU Intel Core i5-10500 (3.1GHz turbo up to 4.5Ghz, 6 nhân 12 lu?ng, 12MB Cache, 65W) - Socket Intel LGA 1200",
-    "gia": 5799000,
-    "id": 9
-  },
-  {
-    "image": "./assets/img/Corei9-10980XE.jpg",
-    "name": "CPU Intel Core i9-10980XE (3.0GHz turbo up to 4.6Ghz, 18 nhân 36 lu?ng, 24.75MB Cache, 165W) - Socket Intel LGA 2066",
-    "gia": 29289000,
-    "id": 10
-  },
-  {
-    "image": "./assets/img/rog_thor_1200p.jpg",
-    "name": "Ngu?n Asus ROG Thor 1200W Platinum - RGB 1200W 80 Plus Platinum Full Modular",
-    "gia": 10509000,
-    "id": 11
-  },
-  {
-    "image": "./assets/img/rog_thor_850p.jpg",
-    "name": "Ngu?n Asus ROG Thor 850W Platinum - RGB 850W 80 Plus Platinum Full Modular",
-    "gia": 6969000,
-    "id": 12
-  },
-  {
-    "image": "./assets/img/gskill_trident.jpg",
-    "name": "Ram Desktop Gskill Trident Z Neo RGB (F4-3600C18D-16GTZN)16GB (2x8GB) DDR4 3600MHz",
-    "gia": 3399000,
-    "id": 13
-  },
-  {
-    "image": "./assets/img/gskill_trident_z_royal_gold.jpg",
-    "name": "RAM Desktop Gskill Trident Z Royal (F4-3600C18D-16GTRG) 16GB (2x8GB) DDR4 3600Mhz",
-    "gia": 5599000,
-    "id": 14
-  },
-  {
-    "image": "./assets/img/gigabyte_rtx_3090_aorus_xtreme.jpg",
-    "name": "Card màn hình Gigabyte RTX 3090 AORUS XTREME WATERFORCE WB - 24GD",
-    "gia": 66659000,
-    "id": 15
-  },
-  {
-    "image": "./assets/img/45767_rog_ryujin_360.jpg",
-    "name": "T?n nhi?t nu?c Asus ROG RYUJIN 360 - RGB 360mm Liquid CPU Cooler",
-    "gia": 7379000,
-    "id": 16
-  },
-  {
-    "image": "./assets/img/45765_rog_ryuo_240.jpg",
-    "name": "T?n nhi?t nu?c Asus ROG RYUO 240 - RGB 240mm Liquid CPU Cooler",
-    "gia": 4749000,
-    "id": 17
-  },
-  {
-    "image": "./assets/img/42617_asus_rog_strix_xg35vq__4_.png",
-    "name": "Màn hình Asus ROG Strix XG35VQ (35 inch/2K/Ultra Wide/1ms/100Hz/21:9/100Hz Aura Sync/FreeSync/Màn hình cong)",
-    "gia": 22209000,
-    "id": 18
-  },
-  {
-    "image": "./assets/img/60059_n_hinh_asus_xg258q_5.png",
-    "name": "Màn hình Asus XG258Q (25inch/FHD/TN/240Hz/1ms/400nits/HDMI+DP+Audio/Gsync)",
-    "gia": 11229000,
-    "id": 19
-  },
-  {
-    "image": "\"./assets/img/60059_n_hinh_asus_xg258q_5.png\"",
-    "name": "\"2\"",
-    "gia": 11229000,
-    "id": 20
-  }
+  "product":[
+    {
+        "id": 1,
+        "image": "./assets/img/3070_o8g_gaming.jpg",
+        "name": "Card màn hình ASUS ROG STRIX RTX 3070-8G GAMING",
+        "gia": 29790000
+    },
+    {
+        "id": 2,
+        "image": "./assets/img/macbook03.jpg",
+        "name": "MacBook Air hang sach tay",
+        "gia": 20900000
+    },
+    {
+        "id": 3,
+        "image": "./assets/img/macbook02.jpg",
+        "name": "MacBook Pro hang cu 99%",
+        "gia": 18990000
+    },
+    {
+        "id": 4,
+        "image": "./assets/img/AppleMacbookAir13.png",
+        "name": "Apple Macbook Air 13 (Z124000DE) (Apple M1/16GB RAM/256GB SSD/13.3 inch IPS/Mac OS/Xám)",
+        "gia": 31509000
+    },
+    {
+        "id": 5,
+        "image": "./assets/img/AppleMacbookPro13Touchbar.png",
+        "name": "Apple Macbook Pro 13 Touchbar (Z11F000CF/Z11D000E7) (Apple M1/16GB RAM/512GB SSD/13.3 inch IPS/Mac OS/Bạc)",
+        "gia": 44429000
+    },
+    {
+        "id": 6,
+        "image": "./assets/img/AppleMacbookPro16.png",
+        "name": "Apple Macbook Pro 16 Touchbar (MVVK2SA/A) (i9 2.3Ghz/16GB RAM/1TB SSD/16.0/Radeon 5500M 4G/ Mac OS/Xám) (2019)",
+        "gia": 67659000
+    },
+    {
+        "id": 7,
+        "image": "./assets/img/Corei3-10105F.jpg",
+        "name": "CPU Intel Core i3-10105F (3.7GHz turbo up to 4.4Ghz, 4 nhân 8 luồng, 6MB Cache, 65W) - Socket Intel LGA 1200",
+        "gia": 2799000
+    },
+    {
+        "id": 8,
+        "image": "./assets/img/Corei7-10700.jpg",
+        "name": "CPU Intel Core i7-10700 (2.9GHz turbo up to 4.8GHz, 8 nhân 16 luồng, 16MB Cache, 65W) - Socket Intel LGA 1200",
+        "gia": 8399000
+    },
+    {
+        "id": 9,
+        "image": "./assets/img/Corei5-10500.jpg",
+        "name": "CPU Intel Core i5-10500 (3.1GHz turbo up to 4.5Ghz, 6 nhân 12 luồng, 12MB Cache, 65W) - Socket Intel LGA 1200",
+        "gia": 5799000
+    },
+    {
+        "id": 10,
+        "image": "./assets/img/Corei9-10980XE.jpg",
+        "name": "CPU Intel Core i9-10980XE (3.0GHz turbo up to 4.6Ghz, 18 nhân 36 luồng, 24.75MB Cache, 165W) - Socket Intel LGA 2066",
+        "gia": 29289000
+    },
+    {
+        "id": 11,
+        "image": "./assets/img/rog_thor_1200p.jpg",
+        "name": "Nguồn Asus ROG Thor 1200W Platinum - RGB 1200W 80 Plus Platinum Full Modular",
+        "gia": 10509000
+    },
+    {
+        "id": 12,
+        "image": "./assets/img/rog_thor_850p.jpg",
+        "name": "Nguồn Asus ROG Thor 850W Platinum - RGB 850W 80 Plus Platinum Full Modular",
+        "gia": 6969000
+    },
+    {
+        "id": 13,
+        "image": "./assets/img/gskill_trident.jpg",
+        "name": "Ram Desktop Gskill Trident Z Neo RGB (F4-3600C18D-16GTZN)16GB (2x8GB) DDR4 3600MHz",
+        "gia": 3399000
+    },
+    {
+        "id": 14,
+        "image": "./assets/img/gskill_trident_z_royal_gold.jpg",
+        "name": "RAM Desktop Gskill Trident Z Royal (F4-3600C18D-16GTRG) 16GB (2x8GB) DDR4 3600Mhz",
+        "gia": 5599000
+    },
+    {
+        "id": 15,
+        "image": "./assets/img/gigabyte_rtx_3090_aorus_xtreme.jpg",
+        "name": "Card màn hình Gigabyte RTX 3090 AORUS XTREME WATERFORCE WB - 24GD",
+        "gia": 66659000
+    },
+    {
+        "id": 16,
+        "image": "./assets/img/45767_rog_ryujin_360.jpg",
+        "name": "Tản nhiệt nước Asus ROG RYUJIN 360 - RGB 360mm Liquid CPU Cooler",
+        "gia": 7379000
+    },
+    {
+        "id": 17,
+        "image": "./assets/img/45765_rog_ryuo_240.jpg",
+        "name": "Tản nhiệt nước Asus ROG RYUO 240 - RGB 240mm Liquid CPU Cooler",
+        "gia": 4749000
+    },
+    {
+        "id": 18,
+        "image": "./assets/img/42617_asus_rog_strix_xg35vq__4_.png",
+        "name": "Màn hình Asus ROG Strix XG35VQ (35 inch/2K/Ultra Wide/1ms/100Hz/21:9/100Hz Aura Sync/FreeSync/Màn hình cong)",
+        "gia": 22209000
+    },
+    {
+        "id": 19,
+        "image": "./assets/img/60059_n_hinh_asus_xg258q_5.png",
+        "name": "Màn hình Asus XG258Q (25inch/FHD/TN/240Hz/1ms/400nits/HDMI+DP+Audio/Gsync)",
+        "gia": 11229000
+    }
 ]
 }
