@@ -122,6 +122,25 @@
         "image": "./assets/img/60059_n_hinh_asus_xg258q_5.png",
         "name": "Màn hình Asus XG258Q (25inch/FHD/TN/240Hz/1ms/400nits/HDMI+DP+Audio/Gsync)",
         "gia": 11229000
+    },
+    {
+        "id": 20,
+        "image": "./assets/img/51282_nzxt_kraken_z73_1.jpg",
+        "name": "Tản nhiệt nước CPU NZXT Kraken Z73",
+        "gia": "8339000"
+        
+    },
+    {
+        "id": 21,
+        "image": "./assets/img/43794_macbook_pro_15_touchbar_mr962__5_.png",
+        "name": "Apple Macbook Pro 15 Touchbar MR962 (i7 2.6Ghz/16GB RAM/256GB SSD/AMD Radeon Pro 555X 4GB/15.4 inch/Mac OS/Bạc)\n",
+        "gia": "53699000"
+    },
+    {
+        "id": 22,
+        "image": "./assets/img/51490_apple_macbook_pro_16_touchbar_mvvm2sa_a_i9_2_3ghz_16gb_ram_1tb_ssd_16_0_radeon_5500m_4g_mac_os_bac_2019_1.png",
+        "name": "Apple Macbook Pro 15 Touchbar MR962 (i7 2.6Ghz/16GB RAM/256GB SSD/AMD Radeon Pro 555X 4GB/15.4 inch/Mac OS/Bạc)\n",
+        "gia": "87880000"
     }
 ]
 }
